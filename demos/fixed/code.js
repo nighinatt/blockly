@@ -393,18 +393,14 @@ Code.init = function() {
       {grid:
           {spacing: 25,
            length: 3,
-           collapse: false,
-           colour: '#000',
-           scrollbars:true,
+           colour: '#ccc',
            snap: true},
        media: '../../media/',
        rtl: rtl,
-       sounds:false,
-       toolboxPosition:"start",
        toolbox: toolboxXml,
        zoom:
-           {controls: false,
-            wheel: false}
+           {controls: true,
+            wheel: true}
       });
 
   // Add to reserved word list: Local variables in execution environment (runJS)

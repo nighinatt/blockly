@@ -1,0 +1,20 @@
+.blockly-wrapper {
+	padding: 15px;
+}
+.blocklyTreeLabel {
+	font-family: 'Lato', sans-serif;
+}
+
+.blocklyTreeRow {
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+.blocklyTreeLabel{
+	cursor: pointer;
+}
+
+.generated-code-wrapper {
+	height :480px;
+	background: #f1f2f2;
+}
